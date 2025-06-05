@@ -91,7 +91,13 @@ const Login = () => {
                 />
               </div>
               {/* Input field for password */}
-              // write logic code for password input box
+              <label htmlFor="Password">Password</label>
+              <input 
+               value={password} onChange={(e)=> setPassword(e.target.value)} type="Password" name="Password" id="Password"
+                className="form-control" 
+	        placeholder="Enter your Password"
+               aria-describedby="helpId"
+                 />
               <div className="btn-group">
                 {/* Login button */}
                 <button type="submit" className="btn btn-primary mb-2 mr-1 waves-effect waves-light">

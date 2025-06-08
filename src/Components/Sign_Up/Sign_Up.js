@@ -125,7 +125,7 @@ const Sign_Up = () => {
                         </button>
                         <p className="signup-text mt-2">
                             Already have an account?{' '}
-                            <Link to="/login" style={{ color: '#2190FF' }}>
+                            <Link to="/Login/Login.html" style={{ color: '#2190FF' }}>
                                 Login here
                             </Link>
                         </p>

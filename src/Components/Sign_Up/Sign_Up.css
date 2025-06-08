@@ -5,16 +5,12 @@
     padding: 40px; /* Add padding inside the container */
     margin-top: 10%; /* Set top margin as a percentage of the viewport height */
     overflow: hidden; /* Hide any overflowing content */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  
 }
 
 .signup-form {
   background-color: #fff;
   padding: 30px;
-  border-radius: px;
+  border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  
     width: 400px;
     margin: 0 auto;
@@ -96,7 +92,7 @@
 /* Styles for form controls in the signup form */
 .form-control {
     width: 100%; /* Set width of form controls */
-    padding: 8px; /* Add padding inside form controls */
+    padding: 10px; /* Add padding inside form controls */
     font-size: 16px; /* Set font size */
     border: 1px solid #ccc; /* Add border with color */
     border-radius: 4px; /* Add border radius for rounded corners */

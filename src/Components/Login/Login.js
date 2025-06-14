@@ -49,7 +49,7 @@ const Login = () => {
 
         <p className="signup-link">
           Are you a new member?{" "}
-          <Link to="/Sign_Up/Sign_Up.html" style={{ color: '#2190FF' }}>
+          <Link to="/signup" style={{ color: '#2190FF' }}>
             Sign Up Here
           </Link>
         </p>

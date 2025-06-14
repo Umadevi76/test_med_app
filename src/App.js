@@ -13,8 +13,8 @@ function App() {
    <Navbar />
    <Routes>
    <Route path="/" element={<Landing_Page />} />
-   <Route path="/Login/Login.html" element={<Login />} />
-   <Route path="Sign_Up/Sign_Up.html" element={<Sign_Up />} />
+   <Route path="/Login" element={<Login />} />
+   <Route path="/signup" element={<Sign_Up />} />
    </Routes>
    </BrowserRouter>
    </>

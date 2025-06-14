@@ -63,7 +63,7 @@ const Sign_Up = () => {
         <div className="container" >
             <div className="signup-grid">
                 <div className="signup-form">
-                    <h1 style={{textAlign: "center"}}>Sign Up</h1>
+                    <h1 style={{ textAlign: "center" }}>Sign Up</h1>
                     <form method="POST" onSubmit={register}>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
@@ -118,14 +118,21 @@ const Sign_Up = () => {
                             />
                         </div>
 
-                        {showerr && <div className="err" style={{ color: 'red' }}>{showerr}</div>}
+                        {showerr && Array.isArray(showerr) ? (
+                            showerr.map((err, index) => (
+                                <div key={index} className="err" style={{ color: 'red' }}>{err.msg}</div>
+                            ))
+                        ) : (
+                            <div className="err" style={{ color: 'red' }}>{showerr}</div>
+                        )}
+
 
                         <button type="submit" className="btn btn-primary mt-3">
                             Register
                         </button>
                         <p className="signup-text mt-2">
                             Already have an account?{' '}
-                            <Link to="/Login/Login.html" style={{ color: '#2190FF' }}>
+                            <Link to="/Login" style={{ color: '#2190FF' }}>
                                 Login here
                             </Link>
                         </p>

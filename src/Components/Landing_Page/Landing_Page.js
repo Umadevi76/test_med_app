@@ -24,7 +24,7 @@ export default function Landing_Page(){
               <h4>
               Being healthy should be a part of our lifestyle as a whole. Good health and a happy mind are priceless possessions that one can have. 
               </h4>
-              <Link to="/instant-consultation">
+              <Link to="/home">
                 <button className="button">Get Started</button>
               </Link>
                 

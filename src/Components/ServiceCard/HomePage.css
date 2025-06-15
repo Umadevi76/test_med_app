@@ -1,0 +1,15 @@
+/* HomePage.css */
+.service-container {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 70px;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
